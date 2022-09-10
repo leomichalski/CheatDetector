@@ -11,7 +11,7 @@ Similarity-based cheat detector for written exams with multiple questions.
 | 19/0046945  |  Leonardo Michalski Miranda |
 
 ## About
-The cheat detector works using text similarity. Once multiple exams are uploaded, the detector analyzes each question from all exams and compares them, finding the degree of similarity between student responses, thus creating a similarity matrix that is analogous to an adjacency matrix and so using it to draw a graph that connects students. At the edges there is a percentage of similarity between the vertex students' exams.
+The cheat detector works using text similarity. The closest one student answer is to another student answer, the thicker the line that connects both students. Using our data visualization, a teacher can spend less time choosing which exams to compare side by side.
 
 
 ## App Gif
