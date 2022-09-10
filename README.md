@@ -17,13 +17,13 @@ The cheat detector works using text similarity. The closest one student answer i
 ## App Gif
 ![Cheat Detector App Gif](assets/cheat_detector_app_gif.gif)
 
-## Video (pt-br, [download link](https://raw.githubusercontent.com/leommiranda/Grafos1_CheatDetector/refactor/assets/cheat_detector_app_video.mp4))
+## Video (pt-br, [download link](https://github.com/leomichalski/CheatDetector/blob/main/assets/cheat_detector_app_video.mp4?raw=true))
 [![](assets/cheat_detector_app_video_splash_screen.png)](https://youtu.be/LVv2pTIqSpo)
 
 ## How to run
 **Language**: Python.<br>
 **Frameworks**: SentenceTransformers; PyTorch; scikit-learn; Jupyter Voilà; BinderHub.<br>
-Access the [app](https://mybinder.org/v2/gh/leommiranda/Grafos1_CheatDetector/main?urlpath=%2Fvoila%2Frender%2Fcheat_detector.ipynb) or the [notebook](https://mybinder.org/v2/gh/leommiranda/Grafos1_CheatDetector/main?filepath=cheat_detector.ipynb) with the BinderHub server.
+Access the [app](https://mybinder.org/v2/gh/leomichalski/CheatDetector/main?urlpath=%2Fvoila%2Frender%2Fcheat_detector.ipynb) or the [notebook](https://mybinder.org/v2/gh/leomichalski/CheatDetector/main?filepath=cheat_detector.ipynb) with the BinderHub server.
 
 ## How to use
 For the correct functioning of the cheat detector, it is necessary to send a zip file that contains the exam of each student. Each exam should be text file (.txt) in the following format. Don't forget the blank line between each question answer.
@@ -36,7 +36,7 @@ Answer to question 2
 Answer to question 3
 ```
 
-Here's an [unzipped folder](https://github.com/leommiranda/Grafos1_CheatDetector/tree/main/mock_data/prova_2) example.
+Here's an [unzipped folder](./mock_data/prova_2) example.
 
 ## References
 
